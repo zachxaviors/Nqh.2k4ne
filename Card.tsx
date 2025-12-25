@@ -5,9 +5,14 @@ interface CardProps {
 }
 
 const LINES = [
-  "Chúc bạn một mùa Giáng Sinh thật ấm áp và tràn đầy yêu thương!",
-  "Mong rằng những ngày lễ này sẽ mang đến cho bạn những khoảnh khắc tuyệt vời bên gia đình và người thân.",
-  "Cảm ơn bạn vì đã luôn ở bên và chia sẻ những niềm vui trong năm qua. Chúc bạn năm mới an khang, hạnh phúc và thành công!"
+  "Quang, chúc Bống một mùa Giáng Sinh thật là Happy như cách Bống",
+  "Thương, Gia Đình/Chị em mình vậy & Giáng Sinh an lành ❤️.",
+  "Bống, như ông già noel vậy vì anh sinh ra anh đã thích ông già noel!",
+  "Lắm, Chuyện Để Tâm Sự Nhưng Quang Lại Không Rảnh Để Nói Cùng Bống, Sad!!",
+  "Quang Không Giỏi Nói Ngọt vì sợ Bống thành 'Đường Tăng'",
+  "Rất nhiều Kẻ Dồm Ngó dù anh có '72 Phép Biến Hoá' cũng khó bảo vệ trước đám tiểu yêu",
+  "Thích em như thương bản thân anh vậy vì anh luôn khoe mẽ bản thân anh có và khiến họ ganh tị",
+  "Bống như nhà sáng lập Guinness vì anh luôn vì bống mà phá vỡ mọi kỷ lục"
 ];
 
 const Card: React.FC<CardProps> = ({ onClose }) => {
